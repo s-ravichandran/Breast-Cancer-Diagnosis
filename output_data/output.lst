@@ -1,0 +1,48 @@
+******************************
+miu = 0.001000, fracTest=0.100000, reord=0
+w = 
+  Columns 1 through 16
+
+   -1.6367   -0.0595    0.1384    0.0041    0.7843    0.3108    0.8027    1.1014    0.9297    0.0124    0.3837   -1.5548    0.3163    0.0517    0.1078   -0.7286
+
+  Columns 17 through 30
+
+   -0.7037    0.1577    0.0775   -0.1157    0.4467    0.2824   -0.0113    0.0034    1.6285    0.1688    2.0307    2.4992    2.3475    0.1075
+
+gamma = 10.134628
+Number of training misclassifications = 13
+******************************
+miu = 0.001000, fracTest=0.150000, reord=1
+w = 
+  Columns 1 through 16
+
+   -1.1958   -0.2002    0.2060   -0.0017    0.6186    0.0123    1.2861    1.1714    0.9034   -0.0450    0.1052   -1.6039    0.4404    0.0510    0.1037   -0.7300
+
+  Columns 17 through 30
+
+   -0.4542    0.1318    0.0427   -0.1427    0.6506    0.4168   -0.0613    0.0019    1.3112   -0.0550    2.6941    2.0260    2.5946   -0.0588
+
+gamma = 16.716345
+Number of training misclassifications = 14
+******************************
+fracTest=0.100000, reord=0
+Number of test misclassifications = 2
+******************************
+fracTest=0.150000, reord=0
+Number of test misclassifications = 2
+******************************
+fracTest=0.200000, reord=1
+Number of test misclassifications = 7
+******************************
+fracTest=0.050000, reord=1
+Number of test misclassifications = 1
+attributes  1  2: misclass  58
+attributes  1  3: misclass  51
+attributes  1  6: misclass  50
+attributes  1  7: misclass  47
+attributes  1 21: misclass  35
+attributes  1 23: misclass  32
+attributes  2 23: misclass  30
+attributes 14 28: misclass  27
+******************************
+Test misclassification = 2

@@ -1,0 +1,43 @@
+REPORT
+
+Q1
+---
+
+Comparing 1a and 1b, training misclassification error does not change
+significantly, with 13/11 in 1a/1b respectively. This is to be expected since
+the number of training examples isn't reduced significantly; assuming that the
+examples are already shuffled in the data file, shuffling the examples again in
+the script (with reord=1) will not influence the training algorithm
+significantly either.
+
+
+Q2
+---
+
+Varying the fraction of test examples does not change test misclassification
+error significantly. Comparing 2a-d, this error ranges between 0 and 5, which
+is very small. In general, more training examples tends to improve
+classification performance, so this trend of invarying test misclassification
+is slightly surprising. But because the dataset is linearly separable, as long
+as the training set is representative of the true distribution, we can expect
+any reasonably sized training set to yield a separating plane that has very
+good test performance, which is what we observe.
+
+
+Q3
+---
+
+Reducing the number of features significantly worsens training performance,
+with 27 misclassifications in the best case, compared to 13 or 11 in Q1. This
+is expected since we're only defining a separating plane in 2 dimensions here,
+which cannot perform well if the true plane is in more dimensions.
+
+
+Q4
+---
+
+Test misclassification error with the two best features is very good at 2
+misclassifications. This is comparable to using all the features in Q2 and is
+very surprisingly since it means that a very good separating plane can be
+described in only 2 dimensions. This suggests that we can make a very good
+prediction of cancer using just two features of the tumor image.
